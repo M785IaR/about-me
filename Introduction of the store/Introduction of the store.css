@@ -2,6 +2,21 @@
 body{
     background-color: #8cc38a;}
 
+.Introduction{
+    text-align: center;
+    margin: 100px;
+}
+
+.Introduction p{
+    display: inline-block;
+    text-align: left;
+}
+
+.about p{
+    display:inline-block;
+    text-align: left;
+}
+
 body{
     margin: 60px;
     padding: 10px;
@@ -52,4 +67,14 @@ a:hover{
     100%{
         background-position: right bottom;
     }
+}
+
+.link6-3{
+    text-align: center;
+}
+
+.link66-3{
+    text-align:left;
+    display:inline-block;
+    list-style: none;
 }

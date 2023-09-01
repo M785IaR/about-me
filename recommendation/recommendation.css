@@ -1,6 +1,16 @@
 
 *{ background-color: #8cc38a;}
 
+.recommendation{
+    text-align: center;
+    margin: 100px;
+}
+
+.recommendation p{
+    display: inline-block;
+    text-align: left;
+}
+
 body{
     margin: 70px;
     padding: 10px;
@@ -51,4 +61,14 @@ a:hover{
     100%{
         background-position: right bottom;
     }
+}
+
+.link6-5{
+    text-align: center;
+}
+
+.link66-5{
+    text-align:left;
+    display:inline-block;
+    list-style: none;
 }

@@ -2,6 +2,15 @@
 
 *{ background-color: #8cc38a;}
 
+.about{
+    text-align: center;
+    margin: 100px;
+}
+.about p{
+    display:inline-block;
+    text-align: left;
+}
+
 body{
     margin: 70px;
     padding: 10px;
@@ -49,3 +58,24 @@ a:hover{
         background-position: right bottom;
     }
 }
+
+.photo{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.photo img{
+    width: 250px;
+}
+
+.link6{
+    text-align: center;
+}
+
+.link66{
+    text-align:left;
+    display:inline-block;
+    list-style: none;
+}
+

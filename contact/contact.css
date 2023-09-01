@@ -1,6 +1,15 @@
 
 *{ background-color: #8cc38a;}
 
+.contact{
+    text-align: center;
+    margin: 100px;
+}
+.contact p{
+    display: inline-block;
+    text-align: left;
+}
+
 body{
     margin: 70px;
     padding: 10px;
@@ -63,4 +72,14 @@ a:hover{
     100%{
         background-position: right bottom;
     }
+}
+
+.link6-2{
+    text-align: center;
+}
+
+.link66-2{
+    text-align:left;
+    display:inline-block;
+    list-style: none;
 }
