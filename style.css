@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(img/take.png);
+    background-repeat:no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+}
+
+h3.TopBottom{
+    border-top:4px double #ffffff;
+    border-bottom: 4px double #ffffff;
+    color:#ffffff;
+}
+
+p{
+    color:#ffffff;
+    text-align:center;
+}
+
+ol{
+    color:#ffffff;
+}
+
+
+.naiyou{
+    text-align:center;
+}
+.naiyou ol {
+    display: inline-block;
+}
+
+
+a:link{
+    color: #f0f0f0;
+}
+a:visited{
+    color:#6a095d;
+    text-decoration: none;
+}
+a:hover{
+    color:#9000c9;
+    text-decoration: underline;
+}
+
+.underline01{
+    background: linear-gradient(transparent 70%,#ff6600 35%); 
+}
+
+.kasen{
+    background-image: Linear-gradient(to top, #ff6600 4px, transparent 4px);
+    background-position: left bottom;
+    background-repeat:no-repeat;
+    background-size: 0% 100%;
+    &.active{
+        animation-name: kf_c06a, kf_c06b;
+        animation-duration: 1.2s, 0s;
+        animation-delay: 0s, 0.75s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes kf_c06a {
+    50%{
+        background-size: 100% 100%;
+    }
+    100%{
+        background-size: 0% 100%;
+    }
+}
+@keyframes kf_c06b {
+    100%{
+        background-position: right bottom;
+    }
+}

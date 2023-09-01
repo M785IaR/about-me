@@ -1,0 +1,55 @@
+
+body{
+    background-color: #8cc38a;}
+
+body{
+    margin: 60px;
+    padding: 10px;
+}
+
+a:link{
+    color: #3543aa;
+}
+a:visited{
+    color:#6a095d;
+    text-decoration: none;
+}
+a:hover{
+    color:#b700ff;
+    text-decoration: underline;
+}
+
+.last{
+    text-align: center;
+}
+
+.underline01{
+    background: linear-gradient(transparent 70%,#ff6600 35%); 
+}
+
+.kasen{
+    background-image: Linear-gradient(to top, #ff6600 4px, transparent 4px);
+    background-position: left bottom;
+    background-repeat:no-repeat;
+    background-size: 0% 100%;
+    &.active{
+        animation-name: kf_c06a, kf_c06b;
+        animation-duration: 1.2s, 0s;
+        animation-delay: 0s, 0.75s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes kf_c06a {
+    50%{
+        background-size: 100% 100%;
+    }
+    100%{
+        background-size: 0% 100%;
+    }
+}
+@keyframes kf_c06b {
+    100%{
+        background-position: right bottom;
+    }
+}
