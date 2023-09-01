@@ -59,12 +59,6 @@ a:hover{
     }
 }
 
-.photo{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
 .photo img{
     width: 250px;
 }
