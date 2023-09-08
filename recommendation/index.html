@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>名古屋の老舗・大矢蒲鉾商店を深堀りしてみた / 大矢蒲鉾商店の奥さんお勧めのかまぼこ</title>
     <link rel = "stylesheet" href = "./reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <link rel = "stylesheet" href = "./recommendation.css">
 </head>
 <header>
@@ -27,7 +34,21 @@
         食感もGOOD　量が多い！<br><br>
     </p>
 
-    <div align="center"><img src="../img/item-kamaboko-shinjo022.png" alt="大矢蒲鉾商店 おすすめのかまぼこ1位  しんじょう"></div><br><br><br><br><br><br>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div><img src="../img/item-kamaboko-shinjo022.png" alt="大矢蒲鉾商店 新上（しんじょう）"></div>
+            </div>
+            <div class="swiper-slide">
+                <div><img src="../img/sukinamono10.png" alt="大矢蒲鉾商 新上（しんじょう） その２"></div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>"" alt="大矢蒲鉾商店 おすすめのかまぼこ1位  しんじょう"></div><br><br><br><br><br><br>
 
     <p>
         <strong><span class="underline01">2位　朱板</span></strong><br><br>
@@ -65,6 +86,6 @@
     <footer>
         <p class="last"><small>Copyright（c）2023 大矢蒲鉾商店を深掘りしてみた！ All Rights Reserved.</small></p>
     </footer>
-    <script src ="js/script2.js"></script>
+    <script src ="../js/script.js"></script>
 </body>
 </html>

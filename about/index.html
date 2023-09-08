@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>名古屋の老舗・大矢蒲鉾商店を深堀りしてみた / 自己紹介</title>
     <link rel = "stylesheet" href = "./reset.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel = "stylesheet" href = "./about.css">
-    <link rel = "stylesheet" href = "../js/script2.js">
 </head>
 <header>
     <h1><div align="center"><u><strong>大矢蒲鉾商店を深掘りしてみた！</strong></u></div></h1><br>
@@ -16,11 +21,26 @@
 <body class = "about">
     <section>
     <p>はじめまして！閲覧して頂きありがとうございます(^▽^)/<br>
-        <strong><span class="underline01">私は現在、食べることと寝ることが大好きな学生の者です。</span></strong><br><br>
-    </p>
+        <strong><span class="underline01">私は現在、食べることと寝ることが大好きな学生の者です。</span></strong>好きな食べ物はスルメとちりめんじゃこです(⌒∇⌒)<br>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+            <div><img src="../img/woman-study 2.png" alt="私は専門学生 イラスト"></div>
+            </div>
+        <div class="swiper-slide">
+        <div><img src="../img/sukinamono1.png" alt="スルメが好き イラスト"></div>
+        </div>
+        <div class="swiper-slide">
+        <div><img src="../img/sukinamono2.png" alt="ちりめんじゃこが好き イラスト"></div>
+    </div>
+    </div>
 
-    <ul class = "photo">
-    <div align = "center"><img src="../img/woman-study 2.png" alt="私は専門学生 イラスト"></div></ul>
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
+        </p>
 
     <p><br><br>
         私事なのですが、実は<strong><span class="underline01">大矢蒲鉾商店にいらっしゃる奥さんとは知り合いで、</span></strong><br>
@@ -46,6 +66,6 @@
     <footer>
         <p class="last"><small>Copyright（c）2023 大矢蒲鉾商店を深掘りしてみた！ All Rights Reserved.</small></p>
     </footer>
-    <script src ="js/script2.js"></script>
+    <script src ="../js/script.js"></script>
 </body>
 </html>

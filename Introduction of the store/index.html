@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>名古屋の老舗・大矢蒲鉾商店を深堀りしてみた / 大矢蒲鉾商店について</title>
     <link rel = "stylesheet" href = "./reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./Introduction of the store.css">
 </head>
 <header>
@@ -21,16 +27,31 @@
         小さいお子さんからおじいちゃんおばあちゃんまで、幅広い年代の方が訪れています。<br>
         現在は機械生産が多い中、手作りで製造しているそうです！<br>
     </p>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+        <div><img src="../img/tedukuri.jpg" alt="大矢蒲鉾商店の手作りの様子"></div>
+        </div>
+    <div class="swiper-slide">
+    <div><img src="../img/sukinamono3.png" alt="大矢蒲鉾商店の商品 朱板と新上"></div>
+    </div>
+    <div class="swiper-slide">
+    <div><img src="../img/sukinamono4.png" alt="大矢蒲鉾商店の商品 新上"></div>
+</div>
+</div>
 
-    <div align="center"><img src = "../img/tedukuri.jpg" alt = "大矢蒲鉾商店の手作りの様子"></div>
+<div class="swiper-pagination"></div>
+
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+
 
     <p>
         <br>
         手作りの理由としては主に2つで、<br>
         1つ目は、<strong><span class="underline01">蒲鉾のすり身の質の状態を確認するため</span></strong>で、気温や室温によっても違いが出るそうです。<br>
         2つ目は、手作りの技術によって、<strong><span class="underline01">蒲鉾の品質を守るため</span></strong>だそうです。<br>
-        <br>
-        <br>
         <br>
         <br>
     </p>
@@ -64,6 +85,6 @@
     <footer>
         <p class="last"><small>Copyright（c）2023 大矢蒲鉾商店を深掘りしてみた！ All Rights Reserved.</small></p>
     </footer>
-    <script src ="js/script2.js"></script>
+    <script src ="../js/script.js"></script>
 </body>
 </html>

@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>名古屋の老舗・大矢蒲鉾商店を深堀りしてみた / かまぼこのお勧めの食べ方</title>
     <link rel = "stylesheet" href = "./reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <link rel = "stylesheet" href = "./recommendation 2.css">
-    <link rel = "stylesheet" href = "../js/script2.js">
 </head>
 <header>
     <h1><div align="center"><u><strong>大矢蒲鉾商店を深掘りしてみた！</strong></u></div></h1><br>
@@ -24,23 +30,35 @@
             かまぼこはうどんといった麺類の具として入っていたり、単体で食べたりもしますよね～<br><br>
         </p>
 
-        <div align="center"><img src="../img/food_udon.png" alt="かまぼこがうどんに入っているイラスト"></div><br><br>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div><img src="../img/food_udon.png" alt="かまぼこにうどんが入っているイラスト"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div><img src="../img/gomaabura sio.png" alt="大矢蒲鉾商店 おすすめの食べ方 ごま油と塩をとかしたものを混ぜる"></div>
+                </div>
+            </div>
 
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div><br><br>
+    </div>
         <p>かまぼこ単体で食べるのだったら大体、醤油をつけて食べますが、<br>
             奥さんによると、
             <strong><span class="underline01">「 ごま油 ＋ 塩をとかしたもの 」</span></strong>で食べるとおいしいらしいです(ﾟдﾟ)！<br>
         </p>
 
-        <br><br>
-        <div align="center"><img src="../img/gomaabura sio.png" alt="大矢蒲鉾商店 おすすめの食べ方 ごま油と塩をとかしたものを混ぜる"></div><br><br>
+        <br><br><br>
 
         <p>みなさんはこの組み合わせを試したことがありますか？<br>
             私はこの組み合わせは試したことがないので、また今度挑戦してみたいと思います！<br>
             かまぼこにつけて食べるだけでなく、
             <strong><span class="underline01">おにぎり</span></strong>だったり、
             <strong><span class="underline01">炒め物</span></strong>に入れてもよさそうですね～<br><br>
-            ちなみに、オリーブオイルも合うみたいですΣ(･ω･ﾉ)ﾉ！<br><br><br><br>
-            皆様も是非参考にしてみてください！！<br>
+            ちなみに、オリーブオイルも合うみたいですΣ(･ω･ﾉ)ﾉ！<br>
+            皆様も是非参考にしてみてください！！<br><br><br><br><br>
         </p><br>
 
     </section>
@@ -58,6 +76,6 @@
     <footer>
         <p class="last"><small>Copyright（c）2023 大矢蒲鉾商店を深掘りしてみた！ All Rights Reserved.</small></p>
     </footer>
-    <script src ="js/script2.js"></script>
+    <script src ="../js/script.js"></script>
 </body>
 </html>
