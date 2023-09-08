@@ -19,10 +19,12 @@ body{
 a:link{
     color: #3543aa;
 }
+
 a:visited{
     color:#6a095d;
     text-decoration: none;
 }
+
 a:hover{
     color:#b700ff;
     text-decoration: underline;
@@ -33,7 +35,7 @@ a:hover{
 }
 
 .underline01{
-    background: linear-gradient(transparent 70%,#ff6600 35%); 
+    background: linear-gradient(transparent 70%,#ff6600 35%);
 }
 
 .kasen{

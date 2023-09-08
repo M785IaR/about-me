@@ -19,10 +19,12 @@ body{
 a:link{
     color: #3543aa;
 }
+
 a:visited{
     color:#6a095d;
     text-decoration: none;
 }
+
 a:hover{
     color:#b700ff;
     text-decoration: underline;
